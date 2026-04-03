@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ART STUDIO VANjA - Udruženje za vizuelne umetnosti, osnaživanje žena, inkluziju osetljivih grupa i umetnički rad sa decom">
+    <meta name="keywords" content="vizuelne umetnosti, udruženje, kultura, Srbija, umetnost">
+    <title>ART STUDIO VANjA | Udruženje za vizuelne umetnosti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="ART STUDIO VANJA" style="height: 40px; width: auto;">
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Početna</a></li>
+                    <li><a href="about.html" class="nav-link">O nama</a></li>
+                    <li><a href="founder.html" class="nav-link">Osnivač</a></li>
+                    <li><a href="team.html" class="nav-link">Naš tim</a></li>
+                    <li><a href="workshops.html" class="nav-link">Radionice</a></li>
+                    <li><a href="projects.html" class="nav-link">Projekti</a></li>
+                    <li><a href="statute.html" class="nav-link">Statut</a></li>
+                    <li><a href="contact.html" class="nav-link contact-btn">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">ART STUDIO VANJA</h1>
+                <p class="hero-subtitle">Umetnost, kultura i inkluzija kao prostor slobode, dijaloga i autentičnost izraza.</p>
+                <p class="hero-description">
+                    Mesto gde deca stvaraju najiskrenije, žene pronalaze svoj glas, a različitosti postaju naša snaga.
+                    Kreativni centar posvećen razvoju umetnosti i kulture gde se priroda čuva, pojedinac osnažuje i gde
+                    se stvara svet u kom svako može da se razvija kroz edukativne programe, projekte i radionice.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">Naši projekti</a>
+                    <a href="about.html" class="btn btn-secondary">Saznajte više</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naša misija</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">📷</div>
+                    <h3>Fotografija i video</h3>
+                    <p>Fotografija, video i kreativna produkcija sa profesionalnim pristupom</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🎥</div>
+                    <h3>Umetničke radionice</h3>
+                    <p>Umetničke radionice za decu i odrasle koje razvijaju kreativnost i veštine</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🎨</div>
+                    <h3>Umetničko stvaranje</h3>
+                    <p>Rad u prirodi - umetničko stvaranje u inspirativnim ambijentima</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">📚</div>
+                    <h3>Specijalizovane radionice</h3>
+                    <p>Specijalizovane radionice vizuelnih umetnosti sa stručnim mentorima</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🖌️</div>
+                    <h3>Profesionalni projekti</h3>
+                    <p>Umetnički projekti i profesionalne saradnje sa institucijama i organizacijama</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🌟</div>
+                    <h3>Kreativni događaji</h3>
+                    <p>Izložbe, prezentacije i kreativni događaji koji promovišu umetnost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Izdvojeni projekti</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Pogledajte neke od naših najuspešnijih projekata</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1 - Reljefi Secesije -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/reljefi-secesije/viber_image_2026-04-03_11-21-14-003.jpg" alt="Projekat Reljefi secesije">
+                        <div class="project-overlay">
+                            <button class="project-link" onclick="openProjectModal('reljefiSecesije')">Detalji</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2025</span>
+                        <h3 class="project-title">Projekat Reljefi secesije – umetnost grada</h3>
+                        <p class="project-description">Savremena umetnička interpretacija secesijskog arhitektonskog nasleđa Novog Sada kroz fotografiju i vajarstvo.</p>
+                    </div>
+                </div>
+                <!-- Project Card 2 - Dečiji svet -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/deciji-svet/viber_image_2026-04-03_10-10-37-420.jpg" alt="Projekat Dečiji svet">
+                        <div class="project-overlay">
+                            <button class="project-link" onclick="openProjectModal('decijiSvet')">Detalji</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2025</span>
+                        <h3 class="project-title">Projekat Dečiji svet u bojama tradicije</h3>
+                        <p class="project-description">Projekat podrške razvoju dečjeg izražavanja kod dece romske nacionalnosti kroz likovne radionice i izložbu.</p>
+                    </div>
+                </div>
+                <!-- Project Card 3 - Vizantija -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/projects/vizantija/503607739_1239984691470916_4151412287843451661_n.jpg" alt="Projekat Vizantija">
+                        <div class="project-overlay">
+                            <button class="project-link" onclick="openProjectModal('vizantija')">Detalji</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2024</span>
+                        <h3 class="project-title">Projekat Vizantija Novog Doba</h3>
+                        <p class="project-description">Intimno putovanje kroz vreme, boje i ljudsku suštinu – umetnost koja progovara bojama duše.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="projects.html" class="btn btn-primary">Svi projekti</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProjectModal()">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#8249;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&#8250;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Fotografija" id="lightboxImage">
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Budite deo naše priče</h2>
+            <p>Zainteresovani za saradnju ili želite da saznate više o našim aktivnostima?</p>
+            <a href="contact.html" class="btn btn-light">Kontaktirajte nas</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ART STUDIO VANjA</h3>
+                    <p>Udruženje za vizuelne umetnosti i kulturni razvoj</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Brzi linkovi</h4>
+                    <ul>
+                        <li><a href="about.html">O nama</a></li>
+                        <li><a href="founder.html">Osnivač</a></li>
+                        <li><a href="team.html">Naš tim</a></li>
+                        <li><a href="workshops.html">Radionice</a></li>
+                        <li><a href="projects.html">Projekti</a></li>
+                        <li><a href="statute.html">Statut</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>Email: <a href="mailto:vignjac@gmail.com">vignjac@gmail.com</a></p>
+                    <p>Telefon: <a href="tel:+381628295696">062 829 56 96</a></p>
+                    <p>Web: <a href="https://artstudiovanja.com">artstudiovanja.com</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/art_studio_vanja" target="_blank" rel="noopener noreferrer">@art_studio_vanja</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ART STUDIO VANjA. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
